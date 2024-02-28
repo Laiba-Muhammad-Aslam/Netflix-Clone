@@ -10,7 +10,7 @@ body {
   background-color: black;
 }
 .main {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: url("/assests/images/bg.jpg");
   background-repeat: no-repeat;
   /* background-size: cover; */
@@ -21,7 +21,8 @@ body {
   /* display: flex; */
 }
 .main .overlay {
-  height: 644px;
+  /* height: 644px; */
+  height: 100%;
   width: 100%;
   opacity: 0.69;
   position: absolute;
@@ -29,7 +30,7 @@ body {
   background-color: black;
 }
 nav {
-  border: 2px solid yellowgreen;
+  /* border: 2px solid yellowgreen; */
   max-width: 60vw;
   justify-content: space-between;
   margin: auto;
@@ -39,7 +40,8 @@ nav {
 }
 nav img {
   color: red;
-  width: 130px;
+  /* width: 130px; */
+  width: 150px;
   position: relative;
   z-index: 10;
 }
@@ -66,7 +68,7 @@ nav button {
   font-weight: 500;
 }
 .hero-content {
-  border: 2px solid purple;
+  /* border: 2px solid purple; */
   font-family: "Martel Sans", sans-serif;
   height: calc(100% - 100px);
   display: flex;
@@ -105,6 +107,10 @@ nav button {
     background-color: rgba(23, 23, 23, 0.7);
     border: 1px solid rgba(246, 238, 238, 0.5);
 }
+.hero-buttons>input::placeholder{
+  font-size: 15px;
+  /* font-weight: 500; */
+}
 .btn-red-lg{
     background-color: red;
     color: white;
@@ -115,4 +121,39 @@ nav button {
     border-radius: 4px;
     font-weight: 400;
     border: none;
+}
+.line{
+  height: 7px;
+  background-color: rgb(46, 44, 44);
+  position: relative;
+  z-index: 20;
+}
+
+/* Second Section */
+
+.second-section{
+  display: flex;
+  border: 2px solid red;
+  width: 100%;
+}
+.second-section-left{
+  border: 2px solid green;
+  width: 50%;
+}
+.second-section-right{
+  border: 2px solid green;
+  width: 50%;
+}
+.second-section-right>img{
+  position: relative;
+  width: 555px;
+  z-index: 10;
+  overflow: hidden;
+}
+.second-section-right>video{
+  position: absolute;
+  width: 500px;
+  /* height: 300px; */
+  top: 670px;
+  right: 30px;
 }
