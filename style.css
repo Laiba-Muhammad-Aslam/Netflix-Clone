@@ -96,6 +96,8 @@ nav button {
 }
 .hero-buttons{
     /* border: 2px solid red; */
+    display: flex;
+
 }
 .hero-buttons>input{
     /* padding: 7px 101px 8px 14px; */
@@ -156,4 +158,26 @@ nav button {
   /* height: 300px; */
   top: 670px;
   right: 30px;
+}
+
+/* kid-section */
+.kid-section{
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kid-section-img{
+  border: 2px solid green;
+  /* padding: 30px; */
+  /* width: 50%; */
+}
+.kid-section-img>img{
+  /* width: 70%;
+  height: 100%; */
+}
+.kid-section-content{
+  border: 2px solid green;
+  color: #ffff;
+  margin: auto;
 }
