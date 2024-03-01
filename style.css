@@ -80,51 +80,50 @@ nav button {
   gap: 23px;
   padding: 0 30px;
 }
-.hero-content> :nth-child(1) {
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-    font-size: 48px;
-    text-align: center;
+.hero-content > :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
 }
-.hero-content> :nth-child(2){
-    font-size: 20px;
-    text-align: center;
+.hero-content > :nth-child(2) {
+  font-size: 20px;
+  text-align: center;
 }
-.hero-content> :nth-child(3){
-    font-size: 18px;
-    text-align: center;
+.hero-content > :nth-child(3) {
+  font-size: 18px;
+  text-align: center;
 }
-.hero-buttons{
-    /* border: 2px solid red; */
-    display: flex;
-
+.hero-buttons {
+  /* border: 2px solid red; */
+  display: flex;
 }
-.hero-buttons>input{
-    /* padding: 7px 101px 8px 14px; */
-    padding: 20px 200px 19px 14px;
-    color: white;
-    font-size: 12px;
-    border-radius: 4px;
-    margin-right: 5px;
-    background-color: rgba(23, 23, 23, 0.7);
-    border: 1px solid rgba(246, 238, 238, 0.5);
+.hero-buttons > input {
+  /* padding: 7px 101px 8px 14px; */
+  padding: 20px 200px 19px 14px;
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  margin-right: 5px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
 }
-.hero-buttons>input::placeholder{
+.hero-buttons > input::placeholder {
   font-size: 15px;
   /* font-weight: 500; */
 }
-.btn-red-lg{
-    background-color: red;
-    color: white;
-    padding: 13px 20px;
-    /* margin-right: 55px; */
-    /* gap: 20px; */
-    font-size: 20px;
-    border-radius: 4px;
-    font-weight: 400;
-    border: none;
+.btn-red-lg {
+  background-color: red;
+  color: white;
+  padding: 13px 20px;
+  /* margin-right: 55px; */
+  /* gap: 20px; */
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+  border: none;
 }
-.line{
+.line {
   height: 7px;
   background-color: rgb(46, 44, 44);
   position: relative;
@@ -133,26 +132,26 @@ nav button {
 
 /* Second Section */
 
-.second-section{
+.second-section {
   display: flex;
   border: 2px solid red;
   width: 100%;
 }
-.second-section-left{
+.second-section-left {
   border: 2px solid green;
   width: 50%;
 }
-.second-section-right{
+.second-section-right {
   border: 2px solid green;
   width: 50%;
 }
-.second-section-right>img{
+.second-section-right > img {
   position: relative;
   width: 555px;
   z-index: 10;
   overflow: hidden;
 }
-.second-section-right>video{
+.second-section-right > video {
   position: absolute;
   width: 500px;
   /* height: 300px; */
@@ -161,23 +160,63 @@ nav button {
 }
 
 /* kid-section */
-.kid-section{
+.kid-section {
   border: 2px solid red;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.kid-section-img{
+.kid-section-img {
   border: 2px solid green;
   /* padding: 30px; */
   /* width: 50%; */
 }
-.kid-section-img>img{
+.kid-section-img > img {
   /* width: 70%;
   height: 100%; */
 }
-.kid-section-content{
+.kid-section-content {
   border: 2px solid green;
   color: #ffff;
   margin: auto;
+}
+
+/* first section  */
+.first {
+  /* border: 2px solid red; */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  /* width: 555px; */
+  width: 400px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  top: 51px;
+  right: 0;
+  /* width: 555px; */
+  width: 400px;
+}
+section.first>div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+section.first>div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+section.first>div :nth-child(2) {
+  font-size: 24px;
 }
