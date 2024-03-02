@@ -191,6 +191,8 @@ nav button {
   margin: auto;
   justify-content: center;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .secImg {
   position: relative;
