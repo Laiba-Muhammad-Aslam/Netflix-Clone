@@ -222,3 +222,36 @@ section.first>div :nth-child(1) {
 section.first>div :nth-child(2) {
   font-size: 24px;
 }
+
+/* FAQ SECTION  */
+
+.faq-section{
+  /* border: 2px solid red; */
+  color: #ffff;
+}
+.faq-section>h1{
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.faq-box{
+  transition: all 1s ease-out;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2d2d2d;
+  padding: 24px;
+  max-width: 70vw;
+  margin: auto;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.faq-box>svg{
+  filter: invert(1);
+}
+.faq-box:hover {
+  background-color: #414141;
+  color: white;
+}
