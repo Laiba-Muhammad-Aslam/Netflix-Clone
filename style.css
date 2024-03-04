@@ -255,3 +255,115 @@ section.first>div :nth-child(2) {
   background-color: #414141;
   color: white;
 }
+
+/* FOOTER SECTION  */
+
+footer {
+  /* color: white; */
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 70vw;
+  margin: auto;
+  padding: 60px;
+  border: 2px solid red;
+}
+
+footer .questions {
+  padding: 34px 0;
+  text-decoration: underline;
+}
+
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* color: white; */
+}
+.footer> .footer-item>a{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  /* border: 2px solid yellowgreen; */
+  margin-bottom: 15px;
+    
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1300px) {
+
+  nav{
+      max-width: 90vw;
+  }
+
+  .first {
+      flex-wrap: wrap;
+  }
+
+  .secImg img {
+      width: 305px;
+  }
+
+  .secImg video {
+      width: 305px;
+  }
+
+  .hero> :nth-child(1) {
+      font-size: 32px;
+  }
+
+  .hero> :nth-child(2) {
+      font-size: 18px;
+  }
+
+  .hero> :nth-child(3) {
+      font-size: 18px;
+  }
+
+  .hero-buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+  }
+
+  .faq h2 {
+      text-align: center;
+      font-size: 32px;
+  }
+
+  footer {
+      max-width: 90vw;
+      padding: 75px 0;
+  }
+
+  .footer-item{
+      align-items: center;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+  .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px;
+  }
+}
+
+
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
